@@ -6,7 +6,6 @@
 4. 使用Build设计模式实现Imageloader的配置。
 
 使用方法：
-        
-        ImageLoaderConfiguration configuration = new ImageLoaderConfiguration().setmImageCache(new                                               DoubleCache(this)).setmType(ImageLoader.Type.LIFO).setThreadCount(3);
+        ImageLoaderConfiguration configuration = new ImageLoaderConfiguration().setmImageCache(new DoubleCache(this)).setmType(ImageLoader.Type.LIFO).setThreadCount(3);
         ImageLoader.getInstance().init(this, configuration);
           ImageLoader.getInstance().loadImage(uri, imageView);
