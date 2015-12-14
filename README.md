@@ -1,4 +1,4 @@
-类似ImageLoader的图片加载框架，使用LruCache做内存缓存，使用DiskLruCache做sd卡缓存，目前只能加载网络图片，会持续更新。
+类似ImageLoader的图片加载框架，使用LruCache做内存缓存，使用DiskLruCache做sd卡缓存，目前只支持网络图片的加载。
 
 1. 使用线程池加载网络图片。
 2. 基于“单一职责原则” 分离逻辑跟cache部分。
